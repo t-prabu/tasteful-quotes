@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>tasty quotes</title>
+  <meta name="description" content="">
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet" />
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+  <link rel="stylesheet" href="dist/styles/styles.css">
+
+  <div class="body-outer-wrapper">
+    <div class="body-wrapper">
+      <!-- <div class="body-wrapper"> -->
+      <!-- <div id="root"></div> -->
+      <div class="header-row">
+        <div class="logo-wrapper-wrapper">tasteful quotes</div>
+        <div class="ctrl-btns-wrapper">
+          <!--
+            <div class="ctrl-btn active">
+              <i class="fa fa-sun-o" aria-hidden="true"></i>
+            </div>
+          -->
+          <div class="ctrl-btn js-ctrl-btn-night-mood" data-balloon="Night Mood" data-balloon-pos="down">
+            <i class="fa fa-moon-o" aria-hidden="true"></i>
+          </div>
+          <div class="ctrl-btn js-ctrl-btn-mail" data-balloon="Comming Soon, Save your Quote with your email ID"
+            data-balloon-pos="down">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </div>
+          <div class="ctrl-btn js-ctrl-btn-help" data-balloon="What we up to" data-balloon-pos="down">
+            <i class="fa fa-question" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="tastful-text-field">
+        <div class="text-input js-text-input">
+          <textarea class="js-textarea-input" placeholder="Write something tasteful..."></textarea>
+          <div class="rand-re-color js-rand-re-color-btn">
+            <i class="fa fa-th" aria-hidden="true"></i>
+          </div>
+          <div class="add-quote-btn js-add-quote-btn">
+            <i class="fa fa-check" aria-hidden="true"></i>
+          </div>
+          <div class="max-text-length-wrapper">
+            <div class="text-length-count js-text-length-count">0</div>
+            / 260
+          </div>
+        </div>
+      </div>
+      <div class="tastful-texts js-tastful-texts">
+      </div>
+      <footer>
+        Made by <span>
+          Prabu
+        </span>
+      </footer>
+    </div>
+
+    <div class="some-messages-wrapper">
+      <div class="content-container">
+        <div class="cls-btn js-some-messages-cls-btn""><i class=" fa fa-times" aria-hidden="true"></i></div>
+        <div class="content">
+          <h2>Upcoming features and updates to the application! </h2>
+          <ul>
+            <li>ReactJS Upgrade</li>
+            <li>Subtle Animation to improve UI/UX</li>
+            <li>Save to Cloud</li>
+            <li>Edit, Delete added quotes</li>
+            <li>MEME related updates and integrations</li>
+            <li>Share to Social Media</li>
+            <li>Grammarly or similar feature integration </li>
+            <li>Voice Dictation </li>
+            <li>And much more... </li>
+          </ul>
+          <strong>User comments are welcomed, Please let us know your ideas and feature you like to see in the app.
+            Email to <a href="mailto:prabu@outlook.com">prabu@outlook.com</a></strong>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="dist/scripts/scripts.js"></script>
+</body>
+
+</html>
